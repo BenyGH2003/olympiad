@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virtual Patient</title>
+    <link rel="stylesheet" href="olympiad_css.css">
+  </head>
+  <body>
+    <h1>Virtual Patient</h1>
+    <div class="questions">
+      <ul id="demographics">
+        <li><a href="#" onclick="showDemographic(0)">Age</a><span id="age"></span></li>
+        <li><a href="#" onclick="showDemographic(1)">Gender</a><span id="gender"></span></li>
+        <li><a href="#" onclick="showDemographic(2)">Race</a><span id="race"></span></li>
+      </ul>
+      <ul id="symptoms">
+        <li><a href="#" onclick="showSymptom(0)">Fever</a><span id="fever"></span></li>
+        <li><a href="#" onclick="showSymptom(1)">Cough</a><span id="cough"></span></li>
+      </ul>
+    </div>
+    <script src="olympiad_js.js"></script>
+  </body>
+</html>

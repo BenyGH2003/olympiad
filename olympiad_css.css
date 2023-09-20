@@ -1,0 +1,29 @@
+.questions {
+    float: left;
+    width: 50%;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+    font-size: 20px;
+    display: block;
+  }
+  
+  a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  span {
+    margin-left: 10px;
+    font-size: 20px;
+    display: inline-block;
+    width: 100px;
+  }
